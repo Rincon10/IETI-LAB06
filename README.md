@@ -51,3 +51,7 @@
 5. run ***npm set-script format "prettier --write ."***
 6. run ***npx husky add .husky/pre-commit "npm run lint:fix && npm format"***
 7. Now, every time you try to run a commit it will validate there are no eslint **Errors** ( Not warnings ), and then it will format every file on your project using our prettier config.
+
+
+## Part 5: Converting app to PWA
+//TODO
