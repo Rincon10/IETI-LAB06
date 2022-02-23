@@ -5,12 +5,12 @@
 
 1. Install **Prettier** plugin
 
-<img align="center" src="img/1.png">
+<img align="center" src="img/1.PNG">
 
 
 2. Install **Eslint** plugin
 
-<img align="center" src="img/2.png">
+<img align="center" src="img/2.PNG">
 
 ## Part 2: Eslint
 1. Open your package.json, go down there on the **eslintConfig** and leave it as the next is:
@@ -30,7 +30,7 @@
 	"lint:fix": "npm run lint -- --fix"
 	 ```
 4. If you installed **eslint** plugin the eslint errors will popup when you hover on warning messages on your code, for instance:
-<img align="center" src="img/3.png">
+<img align="center" src="img/3.PNG">
 
 ## Part 3: Prettier
 1. go to your package.json
