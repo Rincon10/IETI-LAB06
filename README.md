@@ -24,13 +24,21 @@
 		]
 	},
 2. run ***npm i -D eslint***
-3. add this 2 new scripts to the **package.json**
+
+<img src="https://github.com/Rincon10/IETI-LAB06/blob/main/resources/img/01-esLint.jpg" />
+
+4. add this 2 new scripts to the **package.json**
 	```json
 	"lint": "eslint --ext .js,.jsx .",
 	"lint:fix": "npm run lint -- --fix"
 	 ```
 4. If you installed **eslint** plugin the eslint errors will popup when you hover on warning messages on your code, for instance:
 <img align="center" src="img/3.PNG">
+
+## EsLint Working
+
+<img src="https://github.com/Rincon10/IETI-LAB06/blob/main/resources/img/02-esLintWorking.jpg" />
+
 
 ## Part 3: Prettier
 1. go to your package.json
@@ -42,6 +50,17 @@
 4. On the User configuration open ***Text Editor / Formatting***
 5. Click on **Format On Save** checkbox.
 
+### My Prettier Config
+
+<img src="https://github.com/Rincon10/IETI-LAB06/blob/main/resources/img/03-myPrettierConfig.jpg" />
+
+### Without prettier
+
+<img src="https://github.com/Rincon10/IETI-LAB06/blob/main/resources/img/04-without-prettier.jpg" />
+
+### With prettier
+
+<img src="https://github.com/Rincon10/IETI-LAB06/blob/main/resources/img/05-with-prettier.jpg" />
 
 ## Part 4: Husky
 1. run ***npm i -D husky***
