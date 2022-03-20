@@ -68,7 +68,7 @@
 3. run ***npm run prepare***
 4. run ***npm i -D prettier***
 5. run ***npm set-script format "prettier --write ."***
-6. run ***npx husky add .husky/pre-commit "npm run lint:fix && npm format"***
+6. run ***npx husky add .husky/pre-commit "npm run lint:fix && npx pretty-quick --staged"***
 7. Now, every time you try to run a commit it will validate there are no eslint **Errors** ( Not warnings ), and then it will format every file on your project using our prettier config.
 
 
