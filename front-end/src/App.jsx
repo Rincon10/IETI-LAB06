@@ -4,6 +4,7 @@ import authReducer from 'components/auth/authReducer';
 import AppRouter from 'components/routers/AppRouter';
 
 const App = () => {
+    const aa = 0;
     const init = () => {
         return JSON.parse(localStorage.getItem('user')) || { logged: false };
     };

@@ -1,0 +1,14 @@
+https://typicode.github.io/husky/#/?id=install
+
+npm install -g npm@latest
+npm install husky --save-dev
+npx husky install
+
+// package.json
+{
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
+
+npm set-script prepare "husky install"
