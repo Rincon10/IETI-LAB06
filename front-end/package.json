@@ -32,8 +32,10 @@
     },
     "eslintConfig": {
         "extends": [
+            "eslint:recommended",
             "react-app",
-            "react-app/jest"
+            "react-app/jest",
+            "prettier"
         ]
     },
     "browserslist": {
@@ -47,5 +49,10 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    }
+    },
+    "devDependencies": {
+        "eslint": "^8.11.0"
+    },
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "npm run lint -- --fix"
 }

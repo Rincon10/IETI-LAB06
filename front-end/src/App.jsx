@@ -5,11 +5,7 @@ import AppRouter from 'components/routers/AppRouter';
 
 const App = () => {
     const init = () => {
-        return (
-            JSON.parse(localStorage.getItem('user')) || {
-                logged: false,
-            }
-        );
+        return JSON.parse(localStorage.getItem('user')) || { logged: false };
     };
 
     /* const [state, dispatch] = useReducer(reducer, initialState, init) */
